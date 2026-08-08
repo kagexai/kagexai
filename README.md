@@ -16,6 +16,7 @@ We build the training and the tooling for testing AI systems the way an attacker
 [![Website](https://img.shields.io/badge/kagex.ai-visit-fb2c36?style=flat-square)](https://kagex.ai)
 [![Mirage](https://img.shields.io/github/stars/kagexai/mirage?style=flat-square&label=Mirage&color=fb2c36)](https://github.com/kagexai/mirage)
 [![AgentBreaker](https://img.shields.io/github/stars/kagexai/agentbreaker?style=flat-square&label=AgentBreaker&color=fb2c36)](https://github.com/kagexai/agentbreaker)
+[![License](https://img.shields.io/badge/license-MIT-fb2c36?style=flat-square)](https://github.com/kagexai/mirage/blob/main/LICENSE)
 
 [kagex.ai](https://kagex.ai) · [Blog](https://kagex.ai/blog) · [Careers](https://kagex.ai/careers)
 
@@ -55,7 +56,7 @@ The labs and tooling map to the [OWASP Top 10 for LLM Applications](https://gena
 
 Offensive AI security is a young discipline. The techniques are unsettled, the tooling is immature, ours included, and we would much rather be corrected in public than confident in private.
 
-Issues and pull requests are welcome on any of our open-source repositories. If you break one of our tools, tell us how.
+Issues and pull requests are welcome on any of our open-source repositories, all MIT licensed. If you break one of our tools, tell us how.
 
 ## Responsible use
 
