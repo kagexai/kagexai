@@ -1,10 +1,21 @@
 <div align="center">
 
+<!-- Two variants because the mark is a single colour: the white one vanishes
+     on GitHub's light theme and the black one on dark. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
+  <img src="assets/logo-light.svg" alt="KageX" width="96">
+</picture>
+
 # KageX
 
 **Offensive AI security: red teaming labs, free challenges, and open-source tools.**
 
 We build the training and the tooling for testing AI systems the way an attacker would, before someone else does.
+
+[![Website](https://img.shields.io/badge/kagex.ai-visit-fb2c36?style=flat-square)](https://kagex.ai)
+[![Mirage](https://img.shields.io/github/stars/kagexai/mirage?style=flat-square&label=Mirage&color=fb2c36)](https://github.com/kagexai/mirage)
+[![AgentBreaker](https://img.shields.io/github/stars/kagexai/agentbreaker?style=flat-square&label=AgentBreaker&color=fb2c36)](https://github.com/kagexai/agentbreaker)
 
 [kagex.ai](https://kagex.ai) · [Blog](https://kagex.ai/blog) · [Careers](https://kagex.ai/careers)
 
