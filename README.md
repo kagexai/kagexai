@@ -1,10 +1,13 @@
 <div align="center">
 
-<!-- Two variants because the mark is a single colour: the white one vanishes
-     on GitHub's light theme and the black one on dark. -->
+<!-- Absolute raw URLs, not relative paths. A profile README is rendered at
+     github.com/<user>, so "assets/logo.png" resolves against the profile URL
+     rather than this repo and 404s. PNG rather than SVG because GitHub's image
+     proxy does not serve SVG reliably. Two variants because the mark is a
+     single colour: black disappears on dark, white on light. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
-  <img src="assets/logo-light.svg" alt="KageX" width="96">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kagexai/kagexai/main/assets/logo-dark.png">
+  <img src="https://raw.githubusercontent.com/kagexai/kagexai/main/assets/logo-light.png" alt="KageX" width="96">
 </picture>
 
 # KageX
